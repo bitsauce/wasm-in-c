@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+.idea
+.clang-format
+cmake-build-*/
+CMakeUserPresets.json
+build/
