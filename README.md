@@ -13,7 +13,7 @@ The host application is build using a simple CMake setup
 cmake --preset windows -DWASMTIME_PATH=<path-to-wasmtime> -DWASMER_PATH=<path-to-wasmer>
 
 # Build the hosts (one for each wasm engine)
-cmake --build build/windows-debug
+cmake --build build/windows
 ```
 
 See the other presets for more options
