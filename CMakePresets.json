@@ -7,7 +7,7 @@
     },
     "configurePresets": [
         {
-            "name": "windows-debug",
+            "name": "windows",
             "generator": "Ninja",
             "binaryDir": "${sourceDir}/build/${presetName}",
             "cacheVariables": {

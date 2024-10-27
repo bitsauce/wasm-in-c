@@ -9,12 +9,8 @@ The host application is written in C/C++, and use either `wasmtime` or `wasmer` 
 The host application is build using a simple CMake setup
 
 ```bash
-# Ensure that paths to wasmtime and/or wasmer is set
-export WASMTIME_PATH=<path-to-wasmtime>
-export WASMER_PATH=<path-to-wasmer>
-
 # Configure the build
-cmake --preset windows-debug
+cmake --preset windows -DWASMTIME_PATH=<path-to-wasmtime> -DWASMER_PATH=<path-to-wasmer>
 
 # Build the hosts (one for each wasm engine)
 cmake --build build/windows-debug
